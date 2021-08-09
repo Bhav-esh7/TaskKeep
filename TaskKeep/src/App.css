@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  width: 100%;
+  line-height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 0px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px rgba(15, 3, 3, 0.43);
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.header h1 {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* body {
+  background-color: rgba(0, 0, 0, 0.829);
+} */
+
+.main_note {
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+  border : solid 1px rgba(255, 255, 255, 0.288);
+}
+
+.input2 {
+  margin: 10px 40px 10px 180px;
+  line-height: 28px;
+  background-color: rgba(0, 0, 0, 0.486);
+  border : solid 1px rgba(255, 255, 255, 0.795);
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.342);
+  width: 50%;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  padding-left: 50px;
+}
+
+.headerIcons {
+  line-height: 28px;
+  float: left;
+}
+
+.headIcons {
+  line-height: 28px;
+  float: right;
+}
+
+.headIcons li {
+  float: right;
+  margin-right: 5px;
+}
+
+.headerIcons li span {
+      margin : 6px;
+      float: right;
+      display: flex;
+      width: 40px;
+      height: 40px;
+      background-color: #3a3b3cfa;
+      align-items: center;
+      line-height: 1;
+      border-radius: 100%;
+      color: #e8eaed;
+      justify-content: center;
+    
+  }
+
+  .headIcons li span {
+    margin : 6px;
+    float: right;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #3a3b3cfa;
+    align-items: center;
+    line-height: 1;
+    border-radius: 100%;
+    color: #e8eaed;
+    justify-content: center;
+  
+}
+
+
+
+/* form {
+  min-height: 50px;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 5px 15px -5px;
+  border-radius: 10px;
+  position: relative;
+} */
+
+.input1 {
+  width: 100%;
+  color: black;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  color: black; 
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.note {
+  border-radius: 7px;
+  border : solid 1px rgba(14, 2, 2, 0.726);
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  color: black;
+  margin-bottom: 6px;
+}
+
+.note p{
+  font-size: 1.1em;
+  color: black;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.deleteIcon {
+  color: black;
+  width:  0.9em;
+  height: 0.9em;
+}
+ 
+.note .btn {
+  background-color: rgba(182, 168, 168, 0.432);
+} 
+
+footer {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+
+
